@@ -1,0 +1,46 @@
+.category {
+    width: 100%;
+    box-shadow: 1px 2px 10px #cecece;
+    padding: 20px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+
+    transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+
+    .categoryTitle {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    span {
+        background: red;
+        padding: 5px;
+    }
+
+    &.dragging {
+        opacity: .5;
+        transform: scale(.99);
+        background-color: navy;
+
+    }
+
+    .dropZone {
+        background: #cecece;
+    }
+
+    .subCategoories {
+        display: flex;
+        gap: 10px;
+        align-items: start;
+        justify-content: space-between;
+
+        .subCategooriesContainer {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+}

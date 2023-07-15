@@ -1,0 +1,46 @@
+.categorySub {
+    background: #cecece;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .categorySubTitle {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .categorySubList {
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .thirdNested {
+            background: white;
+
+            padding: 10px;
+        }
+
+        .lastNested {
+            background: #cecece;
+
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .categorySubListItemTitle {
+
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            margin-bottom: 20px;
+        }
+
+
+    }
+}
